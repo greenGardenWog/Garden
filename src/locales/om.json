@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Mana",
+    "services": "Tajaajilawwan",
+    "gallery": "Galmeewwan",
+    "contact": "Nu Quunnamaa",
+    "brand": "Green Garden",
+    "shop": "Suuqii"
+  },
+  "home": {
+    "title": "Green Gardenitti Baga Nagaan Dhuftan",
+    "subtitle": "Haala bareedaa fi sirna addaa fuudhaa heerumaaf, guyyaa dhalootaa, fi ayyaana yaadatamaa hundumaaaf.",
+    "cta": "Tajaajilawwan Ilaali"
+  },
+  "services": {
+    "title": "Tajaajilawwan Keenya",
+    "subtitle": "Haala bareedaa fi sirna addaa fuudhaa heerumaaf, guyyaa dhalootaa, fi ayyaana yaadatamaa hundumaaaf.",
+
+    "item1": {
+      "title": "Faayidaa Fuudhaa Heerumaa",
+      "desc": "Mata duree bareedaa fi biqiltoota guyyaa kee adda ta’eef."
+    },
+    "item2": {
+      "title": "Ayyaana Guyyaa Dhalootaa",
+      "desc": "Haala bashannanaa, halluu fi ifaaf kan umuri hundaaf mijataa."
+    },
+    "item3": {
+      "title": "Ayyaana Dhaabbilee",
+      "desc": "Sirna ogummaa fi bareedaa walgahii fi eebbisaaf."
+    }
+  },
+  "gallery": {
+    "title": "Galmeewwan Keenya",
+    "image": "Galmee"
+  },
+  "contact": {
+  "title": "Nu qunnamaa",
+  "subtitle": "Ayyaana itti aanu bareechuu barbaanna. Haala magariisa fi hin dagatamne haa tolchinu!",
+  "name": "Maqaa Kee",
+  "email": "Imeeylii Kee",
+  "message": "Ergaa Kee",
+  "send": "Ergaa Ergi",
+  "errors": {
+    "name": "Maqaan dirqama",
+    "emailRequired": "Imeeyliin dirqama",
+    "emailInvalid": "Imeeylii sirrii miti",
+    "message": "Ergaan dirqama"
+  },
+  "success": {
+    "title": "Milkaa’eera",
+    "message": "Ergaa kee milkaa’inaan ergee jira"
+  }
+}
+,
+    "shop": {
+    "plantsForSale": "Biqiltolee Keenya",
+    "plantsDescription": "Qopheessii keenya biqiltoota qulqulluu mana keessanif ilaalaa",
+    "viewDetails": "Hubannoo ilaalaa",
+    "viewAllPlants": "Biqiltoota hunda ilaalaa"
+  }
+}

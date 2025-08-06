@@ -1,0 +1,84 @@
+{"nav": {
+    "shop": "Shop",
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "brand": "Green Garden",
+    "tagline":"Green is the color of peace."
+  },
+  "home": {
+    "title": "Welcome to Green Garden",
+    "subtitle": "Elegant decorations for your weddings, birthdays, and all unforgettable events.",
+    "cta": "Explore Services"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Elegant decorations for your weddings, birthdays, and all unforgettable events.",
+    "cta": "Explore Galleries",
+    "item1": {
+      "title": "Wedding Decorations",
+      "desc": "Beautiful themes and flowers for your special day. "
+    },
+    "item2": {
+      "title": "Birthday Parties",
+      "desc": "Fun, colorful setups for all ages."
+    },
+    "item3": {
+      "title": "Graduation Events",
+      "desc": "Professional, elegant decor for KG and College Graduation."
+    }
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "image": "Gallery"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We’d love to decorate your next event. Let’s make it green and unforgettable!",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Send Message",
+    "errors":{
+      "name":"Name is required",
+      "emailRequired":"Email is required",
+      "emailInvalid":"Invalid email address",
+      "message":"Message is required"
+    },
+    "success":{
+      "title":"Success",
+      "message":"You have successfully sent your message"
+    },
+    "directContact": "Direct Contact us",
+    "directContactDesc": "You can contact us directly by the following addresses",
+    "callMe": "Call us",
+    "responseTime": "We respond with in 24 hrs"
+  },
+  "shop": {
+    "plantsForSale": "Our Beautiful Plants",
+    "plantsDescription": "Discover our collection of premium quality plants for your home",
+    "viewDetails": "View details",
+    "viewAllPlants": "View all plants",
+    "filter": "Search",
+    "searchPlants": "search plant name"
+  },
+   "plantDetail":{
+   "lightNeeds":"Light Needs",
+   "waterFrequency":"Frequency of watering",
+   "careLevel":"Care Level",
+   "sharePlant":"Contact Us",
+   "description":" Description",
+   "careGuide":" Care Guide",
+   "shippingInfo":"Shipping Info",
+   "callUs": "Please call us at: {{phone}}",
+   "noCareInfo":"No Care Information Provided",
+   "shippingPolicy":"Shipping Policy",
+   "deliveryInstructions":"Delivery Instructions",
+   "shippingPolicyText": "Ships in 1-3 days. Free delivery for orders over 1000 ETB. Climate-safe packaging.",
+   "deliveryInstructionsText": "Be home to receive plants. Water upon arrival. Contact us within 24h for issues.",
+   "moreFromGarden": "You May Like",
+   "contactExperts": "Call Us"
+  
+  }
+}
