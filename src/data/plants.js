@@ -6,12 +6,14 @@ export const plants = [
       en: 'Aloe Vera',
       am: 'አሎ ቬራ'
     },
-    mainImage: '/plants/aloe/main.jpg',
+    //`${import.meta.env.BASE_URL}home/home.jpg`,
+    mainImage: `${import.meta.env.BASE_URL}plants/aloe/main.jpg`,
+    //'/plants/aloe/main.jpg',
     images: [
-      '/plants/aloe/1.jpg',
-      '/plants/aloe/2.jpg',
-      '/plants/aloe/3.jpg',
-      '/plants/aloe/4.jpg'
+      `${import.meta.env.BASE_URL}plants/aloe/1.jpg`,
+      `${import.meta.env.BASE_URL}plants/aloe/2.jpg`,
+      `${import.meta.env.BASE_URL}plants/aloe/3.jpg`,
+      `${import.meta.env.BASE_URL}plants/aloe/4.jpg`,
     ],
     descriptions: {
       en: 'Aloe Vera is a succulent plant species great for skincare and health.',
@@ -45,12 +47,21 @@ export const plants = [
       en: 'Cactus',
       am: 'ካክተስ'
     },
-    mainImage: '/plants/cactus/main.jpg',
+    // mainImage: '/plants/cactus/main.jpg',
+    // images: [
+    //   '/plants/cactus/1.jpg',
+    //   '/plants/cactus/2.jpg',
+    //   '/plants/cactus/3.jpg',
+    //   '/plants/cactus/4.jpg'
+    // ],
+
+    mainImage: `${import.meta.env.BASE_URL}plants/cactus/main.jpg`,
+    //'/plants/aloe/main.jpg',
     images: [
-      '/plants/cactus/1.jpg',
-      '/plants/cactus/2.jpg',
-      '/plants/cactus/3.jpg',
-      '/plants/cactus/4.jpg'
+      `${import.meta.env.BASE_URL}plants/cactus/1.jpg`,
+      `${import.meta.env.BASE_URL}plants/cactus/2.jpg`,
+      `${import.meta.env.BASE_URL}plants/cactus/3.jpg`,
+      `${import.meta.env.BASE_URL}plants/cactus/4.jpg`,
     ],
     descriptions: {
       en: 'Cactus is a low-maintenance plant, perfect for indoor decor.',
