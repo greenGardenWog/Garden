@@ -366,7 +366,7 @@ const handleSubImageClick = (clickedImg) => {
           {plants.filter(p => p.id !== plant.id).slice(0, 4).map(relatedPlant => (
             <Link 
               key={relatedPlant.id} 
-              to={`/plant/${relatedPlant.id}`}
+              to={`/shop/${relatedPlant.id}`}
               className="group block overflow-hidden rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-green-100 hover:border-green-200 bg-white"
             >
               <div className="relative overflow-hidden h-40">
