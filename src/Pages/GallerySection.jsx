@@ -4,7 +4,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 const imageCount = 16;
-const images = Array.from({ length: imageCount }, (_, i) => `/gallery/image${i + 1}.jpg`);
+const images = Array.from({ length: imageCount }, (_, i) =>
+  `${import.meta.env.BASE_URL}gallery/image${i + 1}.jpg`
+);
 const IMAGES_PER_PAGE = 8;
 const AUTO_SCROLL_INTERVAL = 5000;
 

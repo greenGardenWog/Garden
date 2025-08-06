@@ -6,11 +6,11 @@ function HomeSection() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   // Sample garden images (replace with your actual image paths)
- const gardenImages = [
-  '/Garden/home/home.jpg',
-  '/Garden/home/home2.jpg',
-  '/Garden/home/home3.jpg',
-  '/Garden/home/home4.jpg'
+const gardenImages = [
+  `${import.meta.env.BASE_URL}home/home.jpg`,
+  `${import.meta.env.BASE_URL}home/home2.jpg`,
+  `${import.meta.env.BASE_URL}home/home3.jpg`,
+  `${import.meta.env.BASE_URL}home/home4.jpg`
 ];
 
   useEffect(() => {
