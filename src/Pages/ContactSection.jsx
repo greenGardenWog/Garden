@@ -17,9 +17,9 @@ function ContactSection() {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Contact information (replace with your actual details)
-  const phoneNumber = '+1234567890';
-  const telegramUsername = 'your_username';
-  const whatsappNumber = '1234567890';
+  const phoneNumber = '251943220560';
+  const telegramUsername = '@Addisgashaw';
+  const whatsappNumber = '251943220560';
   const emailAddress = 'your.email@example.com';
 
   const validateForm = () => {

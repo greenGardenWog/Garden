@@ -68,7 +68,7 @@ const handleSubImageClick = (clickedImg) => {
   };
 
  const handlePhoneClick = () => {
-  const phoneNumber = '+251 91 234 5678'; 
+  const phoneNumber = '0943220560'; 
   if (/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     window.location.href = `tel:${phoneNumber.replace(/\s/g, '')}`;
   } else {
