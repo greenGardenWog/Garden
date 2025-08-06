@@ -6,12 +6,12 @@ function HomeSection() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   // Sample garden images (replace with your actual image paths)
-  const gardenImages = [
-    '/home/home.jpg',
-    '/home/home2.jpg',
-    '/home/home3.jpg',
-    '/home/home4.jpg'
-  ];
+ const gardenImages = [
+  '/Garden/home/home.jpg',
+  '/Garden/home/home2.jpg',
+  '/Garden/home/home3.jpg',
+  '/Garden/home/home4.jpg'
+];
 
   useEffect(() => {
     const interval = setInterval(() => {
