@@ -78,7 +78,8 @@
    "shippingPolicyText": "Ships in 1-3 days. Free delivery for orders over 1000 ETB. Climate-safe packaging.",
    "deliveryInstructionsText": "Be home to receive plants. Water upon arrival. Contact us within 24h for issues.",
    "moreFromGarden": "You May Like",
-   "contactExperts": "Call Us"
-  
+   "contactExperts": "Call Us",
+   "home": "home",
+   "plant": "plant"
   }
 }
