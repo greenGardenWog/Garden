@@ -20,12 +20,12 @@ function Navbar() {
   }, []);
 
   const navItems = [
-    { key: 'nav.home', to: isHome ? '#home' : '/' },
-    { key: 'nav.services', to: isHome ? '#services' : '/' },
-    { key: 'nav.gallery', to: isHome ? '#gallery' : '/' },
-    { key: 'nav.contact', to: isHome ? '#contact' : '/' },
-    { key: 'nav.shop', to: '/shop' },
-  ];
+  { key: 'nav.home', to: '/#home' },
+  { key: 'nav.services', to: '/#services' },
+  { key: 'nav.gallery', to: '/#gallery' }, 
+  { key: 'nav.contact', to: '/#contact' },
+  { key: 'nav.shop', to: '/shop' },
+];
 
   const renderLink = (item) => {
     if (item.to.startsWith('#')) {
