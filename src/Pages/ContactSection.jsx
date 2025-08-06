@@ -17,8 +17,8 @@ function ContactSection() {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Contact information (replace with your actual details)
-  const phoneNumber = '251943220560';
-  const telegramUsername = '@Addisgashaw';
+  const phoneNumber = '0943220560';
+  const telegramUsername = 'Addisgashaw';
   const whatsappNumber = '251943220560';
   const emailAddress = 'your.email@example.com';
 
