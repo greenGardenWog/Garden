@@ -68,7 +68,7 @@ const handleSubImageClick = (clickedImg) => {
   };
 
  const handlePhoneClick = () => {
-  const phoneNumber = '0943220560'; 
+  const phoneNumber = '0912646028'; 
   if (/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     window.location.href = `tel:${phoneNumber.replace(/\s/g, '')}`;
   } else {
