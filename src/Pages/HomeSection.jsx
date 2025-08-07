@@ -53,8 +53,8 @@ const gardenImages = [
         <p className="text-xl md:text-2xl font-medium text-green-100 mb-8 drop-shadow-md">
           {t('home.subtitle')}
         </p>
-        <a 
-          href="#services" 
+        <a
+          href="#/#services" 
           className="inline-flex items-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white text-lg font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
         >
           {t('home.cta')}
