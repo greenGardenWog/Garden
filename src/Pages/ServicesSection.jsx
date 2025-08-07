@@ -151,7 +151,7 @@ function ServicesSection() {
               <div className="mt-6 pt-4 border-t border-gray-100 relative">
                 <div className="absolute top-0 left-0 w-8 h-px bg-gradient-to-r from-green-400 to-transparent"></div>
                 <a 
-                  href="#contact" 
+                  href="#/#contact" 
                   className={`inline-flex items-center ${service.textColor} font-medium group-hover:underline`}
                 >
                   {t('contact.title')}
@@ -175,7 +175,7 @@ function ServicesSection() {
           <div className="relative inline-block">
             <div className="absolute -inset-1 bg-gradient-to-r from-green-400 to-emerald-600 rounded-full blur opacity-20 group-hover:opacity-30 transition"></div>
             <a 
-              href="#gallery" 
+              href="#/#gallery" 
               className="relative inline-block px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all hover:brightness-110"
             >
               {t('services.cta')}
