@@ -18,8 +18,9 @@ function ContactSection() {
 
   // Contact information (replace with your actual details)
   const phoneNumber = '0912646028';
-  const telegramUsername = '0929174901';
-  const whatsappNumber = '251943220560';
+  const telegramUsername = '+251912646028';
+  const telegramName = 'DanielTesfaye';
+  const whatsappNumber = '251912646028';
   const emailAddress = 'your.email@example.com';
 
   const validateForm = () => {
@@ -113,7 +114,7 @@ function ContactSection() {
   };
 
   const handleTelegramClick = () => {
-    window.open(`https://t.me/${telegramUsername}`, '_blank');
+  window.open(`https://t.me/${telegramUsername}`, '_blank');
   };
 
   const handleWhatsAppClick = () => {
@@ -315,7 +316,7 @@ function ContactSection() {
               </div>
               <div>
                 <h5 className="font-medium text-gray-800">Telegram</h5>
-                <p className="text-gray-600">{telegramUsername}</p>
+                <p className="text-gray-600">@{telegramName}</p>
               </div>
               <FiExternalLink className="ml-auto text-gray-400 group-hover:text-blue-500" />
             </div>
